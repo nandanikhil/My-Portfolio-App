@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/background"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/text_size"
+            android:text="@string/my_nano_degree_apps"/>
+
+
+        <Button
+            android:id="@+id/spotifyStreamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify_streamer"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:textSize="@dimen/button_text_size"
+            android:background="@color/udacity_orange"/>
+
+
+        <Button
+            android:id="@+id/scoresApp"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/button_text_size"
+            android:layout_height="wrap_content"
+            android:text="@string/scores_app"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:background="@color/udacity_orange"/>
+
+
+        <Button
+            android:id="@+id/libraryApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library_app"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:background="@color/udacity_orange"/>
+
+
+        <Button
+            android:id="@+id/buildItBigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/build_it_bigger"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:background="@color/udacity_orange"/>
+
+
+
+        <Button
+            android:id="@+id/xyzReader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz_reader"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:background="@color/udacity_orange"/>
+
+
+
+        <Button
+            android:id="@+id/capstoneMyApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone_my_own_app"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:background="@color/udacity_red"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
